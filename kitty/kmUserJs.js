@@ -1,6 +1,7 @@
 angular.module('kityminderDemo', ['kityminderEditor'])
     .controller('MainController', ['$scope', '$http', function ($scope, $http) {
         $scope.initEditor = function (editor, minder) {
+			return;
             window.editor = editor;
             window.minder = minder;
             const url = window.location;
